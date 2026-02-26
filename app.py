@@ -19,15 +19,19 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
-        
-        )
+st.subheader("Una Historia Luminosa.")
+st.write(
+    "Había una vez una pequeña estrella que tenía miedo de brillar. "
+    "Pensaba que su luz no era tan fuerte como la de las demás. "
+    "Cada noche se escondía detrás de una nube para que nadie notara su tímido resplandor. "
+    
+    "Una niña que miraba el cielo todas las noches la descubrió y susurró: "
+    "'Eres mi estrella favorita, porque brillas suavecito, como un abrazo.' "
+    
+    "Desde ese día, la estrellita entendió que no necesitaba ser la más brillante del cielo, "
+    "solo necesitaba ser ella misma. Y así comenzó a brillar, no más fuerte… "
+    "sino más feliz."
+)
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
